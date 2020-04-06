@@ -5,8 +5,15 @@ import App from './App';
 import store from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
+import { createStore } from 'redux';
 
-//STORE
+//STORE -> GLOBALIZED START
+
+//ACTION INCREMENT -> برای اضافه کردن یه قسمت استفاده می شه
+
+//REDUCER
+
+//DISPATCH
 
 
 ReactDOM.render(
