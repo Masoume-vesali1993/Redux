@@ -6,8 +6,11 @@ import store from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 import { createStore } from 'redux';
+import counterReducer from './reducers/counter';
+import allReducer from './reducers';
 
-const store = createStore()
+const Store = createStore(window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 
 //STORE -> GLOBALIZED START
 
