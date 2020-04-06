@@ -6,6 +6,7 @@ import store from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 import { createStore } from 'redux';
+import { createStore } from 'redux';
 
 //STORE -> GLOBALIZED START
 
