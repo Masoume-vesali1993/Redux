@@ -7,6 +7,8 @@ import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 import { createStore } from 'redux';
 
+const store = createStore()
+
 //STORE -> GLOBALIZED START
 
 //ACTION INCREMENT -> برای اضافه کردن یه قسمت استفاده می شه
